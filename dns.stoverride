@@ -1,6 +1,6 @@
 name: dns
 category: dns
-icon: https://st.agrd.eu/favicons/adguard/favicon.ico
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 desc: DNS Reject
 dns:
     default-nameserver: #!replace
