@@ -1,11 +1,14 @@
 name: dns
-category: qsoyq
+category: dns
 icon: https://st.agrd.eu/favicons/adguard/favicon.ico
-desc: AdguardHome
+desc: DNS Reject
 dns:
     default-nameserver: #!replace
-        - https://223.6.6.6/dns-query
+        - 211.137.191.26
+        - 223.5.5.5
     nameserver: #!replace
-        - https://ahd.19940731.xyz/dns-query/
-    udp-nameserver: #!replace
-        - 223.6.6.6:53
+        - https://dns.alidns.com/dns-query
+    fake-ip-filter:
+    - "*"
+    - "+.lan"
+    - "+.local"
