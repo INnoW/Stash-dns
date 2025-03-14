@@ -6,7 +6,7 @@ dns:
     default-nameserver: #!replace
         - 211.137.191.26
         - 223.5.5.5
-    nameserver: #!replace
+    nameserver:
         - https://dns.alidns.com/dns-query
     fake-ip-filter:
     - "*"
