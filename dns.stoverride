@@ -4,8 +4,8 @@ icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server
 desc: DNS Reject
 dns:
     default-nameserver: #!replace
-        - 211.137.191.26
         - 223.5.5.5
+        - 211.137.191.26
     nameserver:
         - https://dns.alidns.com/dns-query
     fake-ip-filter:
