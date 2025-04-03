@@ -3,19 +3,20 @@ category: dns
 icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 desc: DNS Reject
 dns:
-    default-nameserver:
+    default-nameserver: #!replace
+        - 2223.5.5.5
         - 211.137.191.26
         - 202.102.128.68
     proxy-server-nameserver:
         - https://dns.alidns.com/dns-query
-    nameserver:
+    nameserver: #!replace
+        - 2223.5.5.5
         - 211.137.191.26
         - 202.102.128.68
     fake-ip-filter:
         - "*"
         - "+.lan"
         - "+.local"
-        - "rule-set:private_domain,cn_domain"
         - "+.services.googleapis.cn"
         - "+.xn--ngstr-lra8j.com"
         - "time.*.com"
